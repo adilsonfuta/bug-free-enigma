@@ -4,12 +4,13 @@
     // File Layout
     "rootDir": "./src",
     "outDir": "./dist",
-    "removeComments": false,
+    "removeComments": true,
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "esnext",
+    // "module": "nodenext",
+    "target": "es2016", // define qual a linguagem ou versao do js ser compilada
+    "module": "esnext", // define import/export ou require 
     "types": [],
     // For nodejs:
     // "lib": ["esnext"],
