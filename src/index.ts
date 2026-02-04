@@ -35,11 +35,15 @@ const productId: string | number | boolean = false;
 
 // enum - definicao de valor constante ...
 
-enum  Direction {
-    up=1,
-    Down = 2,
-    left= 'Esquerda'
+/*
+enum Dir {
+    A,
+    B,
 }
+
+const valorRes = Dir.B;
+console.log(valorRes);
+*/
 
 // type assertions - mudar o tipo de uma variavel  tem 2 formas item1 e item2
 
@@ -47,9 +51,20 @@ const productName: any = "chapeu";
 
 let itemId = productName as string;
 
-let itemId2 = <string> productName;
+console.log(itemId);
 
-console.log(Direction.Down);
+
+// let itemId2 = <string> productName;
+
+
+
+// -----------------------------------------
+
+type status = "sucess" | "error";
+let response: status ="sucess";
+
+console.log(response);
+
 
 
 

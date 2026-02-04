@@ -9,7 +9,7 @@
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     // "module": "nodenext",
-    "target": "es2016", // define qual a linguagem ou versao do js ser compilada
+    "target": "esnext", // define qual a linguagem ou versao do js ser compilada
     "module": "esnext", // define import/export ou require 
     "types": [],
     // For nodejs:
@@ -43,4 +43,6 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
   }
+  ,
+  "include": ["**/*"]
 }
